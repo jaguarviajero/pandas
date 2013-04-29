@@ -842,6 +842,7 @@ function takes a number of arguments. Only the first is required.
   - ``sep`` : Field delimiter for the output file (default ",")
   - ``encoding``: a string representing the encoding to use if the contents are
     non-ascii, for python versions prior to 3
+  - ``quoting``: optional constant from csv module (default csv.QUOTE_MINIMAL)
 
 Writing a formatted string
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
